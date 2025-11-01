@@ -78,7 +78,7 @@ export const DATA = {
       title: "Software Developer",
       logoUrl: "/liquid_analytics.jpeg",
       start: "September 2024",
-      end: "Present",
+      end: "August 20205",
       description:  [
         "Drafting and developing new features for our analytics platform.",
         "Developing new components (fiscal year picker for form and Ag grid integration, feature access query builder selector...)",
@@ -93,7 +93,7 @@ export const DATA = {
       title: "Senior Software Engineer",
       logoUrl: "/ledger_leopard_logo.jpeg",
       start: "August 2023",
-      end: "July 2024",
+      end: "March 2024",
       description: [
         "Conducted in-depth analysis to identify and optimize platform bottlenecks, improving overall code performance and workflow efficiency.",
         "Developed new features integrating OpenAI and Azure Services.",
@@ -111,7 +111,7 @@ export const DATA = {
       title: "Frontend Lead",
       logoUrl: "/sendelemental_logo.jpeg",
       start: "Jun 2021",
-      end: "July 2023",
+      end: "Aug 2023",
       description: [
         "Managed systems with nearly 100 million campaigns, ensuring stability and scalability of services.",
         "Collaborated closely with the CTO and management to define and optimize feature release cycles.",
