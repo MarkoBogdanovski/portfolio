@@ -71,14 +71,14 @@ export const DATA = {
 
   work: [
     {
-      company: "Liquid Analytics",
-      href: "https://www.liquidanalytics.com/",
+      company: "CHI Software",
+      href: "https://www.chisw.com/",
       badges: ["SvelteKit", "WebSockets", "Ag Grid", "Monorepo", "Tailwind", "Typescript", "AWS", "DuckDB",  "GitLab"],
       location: "Remote",
       title: "Software Developer",
-      logoUrl: "/liquid_analytics.jpeg",
+      logoUrl: "/chisw.png",
       start: "September 2024",
-      end: "August 20205",
+      end: "Currently",
       description:  [
         "Drafting and developing new features for our analytics platform.",
         "Developing new components (fiscal year picker for form and Ag grid integration, feature access query builder selector...)",
@@ -124,6 +124,20 @@ export const DATA = {
       ]
     },
     {
+      company: "Momnt",
+      badges: ["VueJS", "NuxtJS", "Tailwind", "Figma", "Typescript", "Gitlab CI/CD"],
+      href: "https://sendelemental.com",
+      location: "Remote",
+      title: "Senior Frontend Developer",
+      logoUrl: "/momnt.svg",
+      start: "January 2020",
+      end: "June 2021",
+      description: [
+        "Developing platform components from Figma.",
+        "Developed onboarding and fraud check widgets for the clients' websites.",
+      ]
+    },
+    {
       company: "Serbia BroadBand",
       href: "https://sbb.rs/",
       badges: ["Symfony 2", "Zend 1", "OnApp", "Javascript", "jQuery", "Oracle DB", "JWT Auth", "WebSockets"],
@@ -131,7 +145,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/sbb_serbia_broadband_logo.jpeg",
       start: "August 2016",
-      end: "May 2021",
+      end: "December 2019",
       description: [
         "Lead redesign of Hosting and Cloud Platform.",
         "Conducted thorough testing and implemented robust solutions, including 3D secure payment gateway and User microservice for cross-platform systems.",
