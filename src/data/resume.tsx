@@ -161,8 +161,16 @@ export const DATA = {
       href: "https://etsntesla.edu.rs/",
       degree: "High School Diploma, Multimedia",
       logoUrl: "/ets nikola tesla.png",
-      start: "2012",
-      end: "2016",
+      start: "",
+      end: "",
+    },
+    {
+      school: "University of Belgrade, School of Electrical Engineering",
+      href: "https://etsntesla.edu.rs/",
+      degree: "Bachelor's degree, Information Technology",
+      logoUrl: "/etf.jpeg",
+      start: "",
+      end: "",
     },
   ],
   projects: [
