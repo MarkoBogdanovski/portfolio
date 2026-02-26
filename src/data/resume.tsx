@@ -157,18 +157,18 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Electrical Engineering High School ”Nikola Tesla”",
-      href: "https://etsntesla.edu.rs/",
-      degree: "High School Diploma, Multimedia",
-      logoUrl: "/ets nikola tesla.png",
-      start: "",
-      end: "",
-    },
-    {
       school: "University of Belgrade, School of Electrical Engineering",
       href: "https://www.etf.bg.ac.rs/",
       degree: "Bachelor's degree, Information Technology",
       logoUrl: "/etf.jpeg",
+      start: "",
+      end: "",
+    },
+    {
+      school: "Electrical Engineering High School ”Nikola Tesla”",
+      href: "https://etsntesla.edu.rs/",
+      degree: "High School Diploma, Multimedia",
+      logoUrl: "/ets nikola tesla.png",
       start: "",
       end: "",
     },
