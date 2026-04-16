@@ -78,7 +78,7 @@ export const DATA = {
       title: "Software Developer",
       logoUrl: "/chisw.png",
       start: "September 2024",
-      end: "Currently",
+      end: "March 2026",
       description:  [
         "Developing ETL & RAG pipelines using Azure Services",
         "Implemented workspace feature for checkout process"
