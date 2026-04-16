@@ -73,16 +73,15 @@ export const DATA = {
     {
       company: "CHI Software",
       href: "https://www.chisw.com/",
-      badges: ["SvelteKit", "WebSockets", "Ag Grid", "Monorepo", "Tailwind", "Typescript", "AWS", "DuckDB",  "GitLab"],
+      badges: ["React", "WebSockets", "Ag Grid", "Monorepo", "Tailwind", "Typescript", "Azure", "DuckDB",  "GitLab"],
       location: "Remote",
       title: "Software Developer",
       logoUrl: "/chisw.png",
       start: "September 2024",
       end: "Currently",
       description:  [
-        "Drafting and developing new features for our analytics platform.",
-        "Developing new components (fiscal year picker for form and Ag grid integration, feature access query builder selector...)",
-        "Developed workspace feature to speed up checkout times for generating reports."
+        "Developing ETL & RAG pipelines using Azure Services",
+        "Implemented workspace feature for checkout process"
       ]
     },
     {
@@ -174,6 +173,33 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Obba",
+      href: "https://www.producthunt.com/products/obba-store",
+      dates: "March 2026",
+      active: true,
+      description:
+        "A web platform for an AI-powered Web3 security platform that provides smart contract analysis, vulnerability detection, and real-time security monitoring.",
+      technologies: [
+        "NextJs",
+        "NestJS",
+        "Supabase",
+        "Github Actions",
+        "Azure",
+        "Docker",
+        "Tailwind",
+        "WebSockets"
+      ],
+      links: [
+        {
+          type: "Official Repository",
+          href: "https://github.com/MarkoBogdanovski/aisec",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dwl9ar0hz/video/upload/v1776333236/linkedin-video_rqerle.mp4",
+    },
     {
       title: "Obba",
       href: "https://www.producthunt.com/products/obba-store",
