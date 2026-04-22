@@ -174,8 +174,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Obba",
-      href: "https://www.producthunt.com/products/obba-store",
+      title: "Aisec",
+      href: "https://aisec.vercel.app/",
       dates: "March 2026",
       active: true,
       description:
