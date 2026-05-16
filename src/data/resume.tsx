@@ -155,14 +155,14 @@ export const DATA = {
     },
   ],
   education: [
-    {
-      school: "University of Belgrade, School of Electrical Engineering",
-      href: "https://www.etf.bg.ac.rs/",
-      degree: "Bachelor's degree, Information Technology",
-      logoUrl: "/etf.jpeg",
-      start: "",
-      end: "",
-    },
+    // {
+    //   school: "University of Belgrade, School of Electrical Engineering",
+    //   href: "https://www.etf.bg.ac.rs/",
+    //   degree: "Bachelor's degree, Information Technology",
+    //   logoUrl: "/etf.jpeg",
+    //   start: "",
+    //   end: "",
+    // },
     {
       school: "Electrical Engineering High School ”Nikola Tesla”",
       href: "https://etsntesla.edu.rs/",

@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import Script from "next/script";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -177,6 +178,13 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+
+      <Script
+        src="http://localhost:3000/widget/chatbot-widget.js"
+        data-chat-base="http://api.asistent.site/"
+        data-widget-key="0f3445b6d39d4cb44471458a7a066baf"
+        strategy="afterInteractive"
+      />
     </main>
   );
 }
