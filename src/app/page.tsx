@@ -182,7 +182,7 @@ export default function Page() {
       <Script
         src="http://localhost:3000/widget/chatbot-widget.js"
         data-chat-base="http://api.asistent.site/"
-        data-widget-key="0f3445b6d39d4cb44471458a7a066baf"
+        data-widget-key="1645f1467b39f87153391198bd49c6af"
         strategy="afterInteractive"
       />
     </main>
