@@ -71,6 +71,19 @@ export const DATA = {
 
   work: [
     {
+      company: "Virtuelni Asistent",
+      href: "http://asistent.site/",
+      badges: ["AWS Bedrock", "AWS Sagemaker", "AWS Lambda", "AWS S3", "AWS EC2", "AWS SES", "NestJS", "NextJS", "Docker", "PostgreSQL", "Python", "Kafka", "LangChain"],
+      location: "Remote",
+      title: "Co-Fonder",
+      logoUrl: "/virtuelni-asistent.jpeg",
+      start: "March 2026",
+      end: "Currently",
+      description:  [
+        "Developing Agentic Services.",
+      ]
+    },
+    {
       company: "CHI Software",
       href: "https://www.chisw.com/",
       badges: ["React", "WebSockets", "Ag Grid", "Monorepo", "Tailwind", "Typescript", "Azure", "DuckDB",  "GitLab"],
