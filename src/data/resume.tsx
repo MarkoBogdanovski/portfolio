@@ -73,7 +73,7 @@ export const DATA = {
     {
       company: "Virtuelni Asistent",
       href: "http://asistent.site/",
-      badges: ["LangChain", "AWS Bedrock", "AWS Sagemaker", "AWS Lambda", "AWS S3", "AWS EC2", "AWS SES", "NestJS", "NextJS", "Docker", "PostgreSQL", "Python", "Kafka", "Redis"],
+      badges: ["LangChain", "AWS Bedrock", "AWS Sagemaker", "AWS SQS", "AWS Lambda", "AWS S3", "AWS EC2", "AWS SES", "NestJS", "NextJS", "Docker", "PostgreSQL", "Python", "Redis"],
       location: "Remote",
       title: "Co-Founder",
       logoUrl: "/virtuelni-asistent.jpeg",
