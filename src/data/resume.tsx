@@ -86,7 +86,7 @@ export const DATA = {
     {
       company: "CHI Software",
       href: "https://www.chisw.com/",
-      badges: ["React", "WebSockets", "Ag Grid", "Monorepo", "Tailwind", "Typescript", "Azure", "DuckDB",  "GitLab"],
+      badges: ["React", "WebSockets", "NestJS", "Typescript", "Azure AI Studio", "Azure OpenAI", "Azure AI Face", "Azure AI Search", "Python"],
       location: "Remote",
       title: "Software Developer",
       logoUrl: "/chisw.png",
@@ -100,7 +100,7 @@ export const DATA = {
     {
       company: "Ledger Leopard",
       href: "https://ledgerleopard.com/",
-      badges: ["NextJS", "NestJS", "RxJS", "OpenAI", "Azure AI Search", "Azure Cognitive Services", "Azure Document Intelligence", "Azure Blob Storage", "MongoDB", "Monorepo", "Typescript", "Auth0"],
+      badges: ["NextJS", "NestJS", "OpenAI", "Azure AI Search", "Azure Cognitive Services", "Azure Document Intelligence", "Azure Blob Storage", "MongoDB", "Monorepo", "Typescript", "Auth0"],
       location: "Remote",
       title: "Senior Software Engineer",
       logoUrl: "/ledger_leopard_logo.jpeg",
@@ -138,7 +138,7 @@ export const DATA = {
     {
       company: "Momnt",
       badges: ["VueJS", "NuxtJS", "Tailwind", "Figma", "Typescript", "Gitlab CI/CD"],
-      href: "https://sendelemental.com",
+      href: "https://www.momnt.com/",
       location: "Remote",
       title: "Senior Frontend Developer",
       logoUrl: "/momnt.svg",
