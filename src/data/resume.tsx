@@ -71,7 +71,7 @@ export const DATA = {
   work: [
     {
       company: "Virtuelni Asistent",
-      href: "http://asistent.site/",
+      href: "https://asistent.site/",
       badges: ["LangChain", "AWS Bedrock", "AWS SQS", "AWS Lambda", "AWS S3", "AWS EC2", "AWS SES", "NestJS", "NextJS", "Docker", "PostgreSQL", "Python", "Redis"],
       location: "Remote",
       title: "Co-Founder",
