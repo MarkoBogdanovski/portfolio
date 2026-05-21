@@ -180,9 +180,9 @@ export default function Page() {
       </section>
 
       <Script
-        src="https://artefacts-217266131506-eu-central-1-an.s3.eu-central-1.amazonaws.com/chatbot-widget.js"
+        src="https://www.asistent.site/widget/chatbot-widget.js"
         data-chat-base="https://chat.asistent.site/"
-        data-widget-key="1645f1467b39f87153391198bd49c6af"
+        data-widget-key="0df0432a2b5de449134338d31f34e166"
         strategy="afterInteractive"
       />
     </main>
