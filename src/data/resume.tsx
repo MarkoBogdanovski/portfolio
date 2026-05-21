@@ -87,7 +87,7 @@ export const DATA = {
       href: "https://www.chisw.com/",
       badges: ["React", "WebSockets", "NestJS", "Typescript", "Azure AI Studio", "Azure OpenAI", "Azure AI Face", "Azure AI Search", "Python"],
       location: "Remote",
-      title: "Software Developer",
+      title: "AI Implementation Strategist",
       logoUrl: "/chisw.png",
       start: "September 2024",
       end: "March 2026",
