@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Senior Software Engineer.",
   summary:
-    "I specialize in building SaaS applications. My core competency lies in complete management of new project development, focusing on custom-tailored apps and services for businesses. I constantly seek new opportunities to leverage my skills and experience to help companies achieve their goals. ",
+    "A Software Engineer with 9+ years of experience, with a strong background in frontend and full-stack development across FinTech, SaaS, and Logistics platforms. Experienced in leading product development and contributing to product direction, with a focus on building scalable architectures, improving performance, and delivering user-centric solutions within complex product environments.",
   avatarUrl: "/marko-bogdanovski.jpg",
   skills: [
     "React",
@@ -72,7 +72,7 @@ export const DATA = {
     {
       company: "Virtuelni Asistent",
       href: "https://asistent.site/",
-      badges: ["LangChain", "AWS Bedrock", "AWS SQS", "AWS Lambda", "AWS S3", "AWS EC2", "AWS SES", "NestJS", "NextJS", "Docker", "PostgreSQL", "Python", "Redis"],
+      badges: ["LangChain", "AWS Bedrock", "AWS SQS", "AWS Lambda", "AWS S3", "AWS EC2", "AWS SES", "NestJS", "NextJS", "Docker", "PostgreSQL", "Python", "Redis", "CircleCI"],
       location: "Remote",
       title: "Co-Founder",
       logoUrl: "/virtuelni-asistent.jpeg",
