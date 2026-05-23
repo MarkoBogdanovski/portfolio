@@ -12,23 +12,34 @@ export const DATA = {
   summary:
     "A Software Engineer with 9+ years of experience, with a strong background in frontend and full-stack development across FinTech, SaaS, and Logistics platforms. Experienced in leading product development and contributing to product direction, with a focus on building scalable architectures, improving performance, and delivering user-centric solutions within complex product environments.",
   avatarUrl: "/marko-bogdanovski.jpg",
-  skills: [
-    "React",
-    "VueJS",
-    "Nest.js",
-    "Azure (OpenAI, AI Search, Document Intelligence, Blob Storage, Cognitive, AI Studio)",
-    "AWS (S3 Bucket, EC2, Route 53, Bedrock, Lambda, SQS, SES)",
-    "LangChain",
-    "Typescript",
-    "PostgreSQL",
-    "Oracle DB",
-    "Monorepo",
-    "FastAPI",
-    "MongoDB",
-    "Docker",
-    "Laravel",
-    "Tailwind"
-  ],
+  skills: {
+    frontend: [
+      "React",
+      "NextJS",
+      "VueJS",
+      "NuxtJS",
+      "Shadcn",
+      "Typescript",
+      "Tailwind"
+    ],
+    backend: [
+      "Nest.js",
+      "Laravel",
+      "FastAPI",
+      "PostgreSQL",
+      "MongoDB",
+      "Azure OpenAI", "Azure AI Search", "Azure Document Intelligence", "Azure Blob Storage", "Azure Cognitive", "Azure AI Studio",
+      "AWS S3 Bucket", "AWS EC2", "AWS Bedrock", "AWS Lambda", "AWS SQS", "AWS SES",
+    ],
+    devOps: [
+      "CircleCI",
+      "Docker",
+      "AWS IAM",
+      "LangChain",
+      "BetterStack",
+      "Monorepo",
+    ]
+  },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -79,7 +90,7 @@ export const DATA = {
       start: "March 2026",
       end: "Currently",
       description:  [
-        "Developing agentic platform on AWS using NestJS, MCP servers using Python. Implementing functions for embedding, re-ranking, and document summarization generation using AWS Bedrock and Lambda functions. Integrated Redis for Semantic Search caching, SQS for storing conversations for permanent storage. LangChain for model orchestration and MCP servers to work with clients internal workflows.",
+        "Developing agentic platform on AWS using NestJS, MCP servers using Python. Implementing functions for embedding, re-ranking, and document summarization generation using AWS Bedrock and Lambda functions. Integrated Redis for Semantic Search caching, AWS SQS handles message queuing for permanent message storage. LangChain for model orchestration and MCP servers to work with clients internal workflows.",
       ]
     },
     {
@@ -182,6 +193,15 @@ export const DATA = {
       logoUrl: "/ets nikola tesla.png",
       start: "",
       end: "",
+    },
+  ],
+  certificates: [
+    {
+      issuer: "Microsoft",
+      href: "https://coursera.org/verify/FBSV8914GN1E",
+      title: "Foundations of AI and Machine Learning",
+      logoUrl: "/microsoft-certified-fundamentals-badge.svg",
+      date: "Issued May 2026",
     },
   ],
   projects: [
