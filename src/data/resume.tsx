@@ -35,7 +35,10 @@ export const DATA = {
       "CircleCI",
       "Docker",
       "AWS IAM",
+      "AWS CloudWatch",
+      "Azure Application Insights",
       "LangChain",
+      "Grafana k6",
       "BetterStack",
       "Monorepo",
     ]
