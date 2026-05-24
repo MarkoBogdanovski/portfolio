@@ -93,7 +93,10 @@ export const DATA = {
       start: "March 2026",
       end: "Currently",
       description:  [
-        "Developing agentic platform on AWS using NestJS, MCP servers using Python. Implementing functions for embedding, re-ranking, and document summarization generation using AWS Bedrock and Lambda functions. Integrated Redis for Semantic Search caching, AWS SQS handles message queuing for permanent message storage. LangChain for model orchestration and MCP servers to work with clients internal workflows.",
+        "Developing an agentic platform on AWS using NestJS and Python-based MCP servers.",
+        "Building embedding, re-ranking, and document summarization workflows using AWS Bedrock and Lambda.",
+        "Implemented Redis-based semantic search caching and AWS SQS message queuing for permanent message storage.",
+        "Using LangChain for model orchestration and integrating MCP servers with internal client workflows."
       ]
     },
     {
