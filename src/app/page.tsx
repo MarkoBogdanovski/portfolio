@@ -214,7 +214,7 @@ export default function Page() {
       <Script
         src="https://www.asistent.site/widget/chatbot-widget.js"
         data-chat-base="https://chat.asistent.site/"
-        data-widget-key="0df0432a2b5de449134338d31f34e166"
+        data-widget-key="091e1f797e1093fab8909944990ebaba"
         strategy="afterInteractive"
       defer/>
     </main>
