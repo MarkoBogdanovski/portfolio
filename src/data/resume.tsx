@@ -5,10 +5,10 @@ export const DATA = {
   name: "Marko Bogdanovski",
   initials: "MB",
   url: "https://markobogdanovski.com",
-  location: "Pančevo, Serbia",
+  location: "Belgrade, Serbia",
   locationLink: "https://www.google.com/maps/place/belgrade",
   description:
-    "Senior Software Engineer.",
+    "AI Engineer.",
   summary:
     "A Software Engineer with 9+ years of experience, with a strong background in frontend and full-stack development across FinTech, SaaS, and Logistics platforms. Experienced in leading product development and contributing to product direction, with a focus on building scalable architectures, improving performance, and delivering user-centric solutions within complex product environments.",
   avatarUrl: "/marko-bogdanovski.jpg",
@@ -48,7 +48,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "mr.bogdanovski@gmail.com",
+    email: "me@markobogdanovski.com",
     tel: "#",
     social: {
       LinkedIn: {
@@ -74,7 +74,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:me@markobogdanovski.com",
         icon: Icons.email,
 
         navbar: false,
@@ -83,6 +83,17 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Perplexity",
+      href: "https://perplexity.ai/",
+      badges: [],
+      location: "Remote",
+      title: "Member of the Technical Staff",
+      logoUrl: "/perplexity.webp",
+      start: "October 2026",
+      end: "Currently",
+      description:  []
+    },
     {
       company: "Virtuelni Asistent",
       href: "https://asistent.site/",
@@ -104,13 +115,15 @@ export const DATA = {
       href: "https://www.chisw.com/",
       badges: ["React", "WebSockets", "NestJS", "Typescript", "Azure AI Studio", "Azure OpenAI", "Azure AI Face", "Azure AI Search", "Python"],
       location: "Remote",
-      title: "AI Implementation Strategist",
+      title: "Forward Deployed Engineer",
       logoUrl: "/chisw.png",
       start: "September 2024",
       end: "March 2026",
       description:  [
         "Developing ETL & RAG pipelines using Azure Services",
-        "Implemented workspace feature for checkout process"
+        "Implementing KYC Verifications using Azure AI Face and Document Intelligence",
+        "Developed Parsing, Chunking, and Tokenization using tiktoken",
+        "Implemented workspace feature for checkout process",
       ]
     },
     {
@@ -118,7 +131,7 @@ export const DATA = {
       href: "https://ledgerleopard.com/",
       badges: ["NextJS", "NestJS", "OpenAI", "Azure AI Search", "Azure Cognitive Services", "Azure Document Intelligence", "Azure Blob Storage", "MongoDB", "Monorepo", "Typescript", "Auth0"],
       location: "Remote",
-      title: "Senior Software Engineer",
+      title: "Tech Lead",
       logoUrl: "/ledger_leopard_logo.jpeg",
       start: "August 2023",
       end: "March 2024",
